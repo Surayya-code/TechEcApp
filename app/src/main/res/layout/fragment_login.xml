@@ -11,24 +11,26 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
         android:src="@drawable/welcome"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="83dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.card.MaterialCardView
         style="@style/CustomCardView"
-        android:layout_width="414dp"
+        android:layout_width="match_parent"
         android:layout_height="647dp"
         android:layout_marginTop="60dp"
         app:cardBackgroundColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" >
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
 
-      <LinearLayout
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/textView"
@@ -42,40 +44,38 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+            android:layout_height="wrap_content" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="rosina@company.com"
-            android:layout_marginTop="101dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"/>
+            android:layout_marginTop="101dp"
+            android:layout_marginRight="50dp"
+            android:hint="rosina@company.com" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+            android:layout_height="wrap_content" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="*********"
-            android:layout_marginTop="161dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"/>
+            android:layout_marginTop="161dp"
+            android:layout_marginRight="50dp"
+            android:hint="*********" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="221dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="221dp"
             android:text="Forgot Password?"
             android:textColor="@color/maincolor"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/logindBtn"
@@ -86,7 +86,7 @@
             android:layout_marginEnd="50dp"
             android:backgroundTint="@color/maincolor"
             android:paddingLeft="62dp"
-            android:paddingTop="25dp"
+            android:paddingTop="20dp"
             android:paddingRight="62sp"
             android:paddingBottom="22dp"
             android:text="Login"
@@ -102,12 +102,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="360dp"
             android:layout_marginLeft="125dp"
+            android:layout_marginTop="360dp"
             android:layout_marginRight="125dp"
-            android:textSize="17sp"
             android:text="Create account"
             android:textColor="@color/maincolor"
-            android:textStyle="bold"/>
+            android:textSize="17sp"
+            android:textStyle="bold" />
     </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
