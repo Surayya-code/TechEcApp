@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "329569769667",
+    "project_id": "techecapp",
+    "storage_bucket": "techecapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329569769667:android:b27437ebab50e66ddfaa76",
+        "android_client_info": {
+          "package_name": "com.example.techecapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329569769667-vec8qjhk5s9ql6mjicqeu74pcg6k7tk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYwplN33oeOAkj--PmCJFucizA4pYF3rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329569769667-vec8qjhk5s9ql6mjicqeu74pcg6k7tk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
