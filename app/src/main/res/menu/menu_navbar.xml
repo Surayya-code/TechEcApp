@@ -7,8 +7,8 @@
     <item android:title="Favorite"
         android:id="@+id/favorite"
         android:icon="@drawable/baseline_favorite_border_24"/>
-    <item android:title="Account"
-        android:id="@+id/Account"
+    <item android:title="Profile"
+        android:id="@+id/profileFragment"
         android:icon="@drawable/baseline_account_circle_24"/>
     <item android:title="Shopping"
         android:id="@+id/shopping"
